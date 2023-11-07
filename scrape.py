@@ -7,7 +7,7 @@ import json
 
 URL = "https://en.wikipedia.org/wiki/List_of_Singapore_MRT_stations"
 base = "https://en.wikipedia.org"
-path = "/Users/tanayrishi/Downloads/"
+path = "your-file-path"
 
 headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15"}
 page = requests.get(URL, headers=headers)
